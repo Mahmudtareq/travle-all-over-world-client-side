@@ -9,21 +9,20 @@ const OurService = (props) => {
     return (
         <div>
             <div className="mb-4">
-            <Card className="" style={{ width: '18rem'}}>
-            <Card.Img variant="top" height="300" className="" src={img} />
+            
+            
+        <Card className="" style={{ width: '16rem' }}>
+            <Card.Img variant="top" height="190" className="" src={img} />
             <Card.Body>
                 <Card.Title className="text-start">{name}</Card.Title>
                 <Card.Title className="text-start"> <span className="text-primary">Price: <span className="text-danger">$</span> {price} </span> <span className="text-info"> Per Person</span></Card.Title>
-                <Card.Text className="text-start">
-                {description}
-                </Card.Text>
-                <Link to={`/myOrder/${_id}`}>
-                <Button variant="danger" >Book With Us Now</Button>
+                <Link to={`/myOrder/${_id}`} style={{ textDecoration: 'none' }}>
+                             <Button variant="primary" >View Details</Button>
                 </Link>
-               
             </Card.Body>
-            </Card>
+                </Card>
             </div>
+           
         </div>
     );
 };

@@ -3,6 +3,8 @@ import { Carousel } from 'react-bootstrap';
 import banner1 from '../../image/banner/banner1.jpg';
 import banner2 from '../../image/banner/banner2.jpg';
 import banner3 from '../../image/banner/banner3.jpg';
+// import banner3 from '../../image/banner/banner4.jpg';
+// import banner3 from '../../image/banner/banner5.jpg';
 
 import './Banner.css';
 
@@ -48,6 +50,7 @@ const Banner = () => {
                 <p>Where Would You Like To Go ?</p>
                 </Carousel.Caption>
             </Carousel.Item>
+          
 </Carousel>
         </div>
     );
