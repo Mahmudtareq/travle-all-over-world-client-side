@@ -10,7 +10,7 @@
     },
 
     {
-        "name":"Manali","img":"https://i.ibb.co/cggDKwT/service2.jpg","description":"Manali is a high-altitude Himalayan resort town in India’s northern Himachal Pradesh state. It has a reputation as a backpacking center ","price":"250"
+        "name":"Italy","img":"https://i.ibb.co/cggDKwT/service2.jpg","description":"Italy, a European country with a long Mediterranean coastline, has left a powerful mark on Western culture and cuisine. Its capital, Rome, is home to the Vatican as well as landmark art and ancient ruins. Other major cities include Florence, with Renaissance masterpieces such as Michelangelo’s and Brunelleschi's Duomo; Venice, the city of canals ","price":"250"
     },
 
     {
@@ -25,24 +25,24 @@
         "name":"Darjeeling","img":"https://i.ibb.co/QY48v1K/service5.jpg","description":"Darjeeling is a town in India's West Bengal state, in the Himalayan foothills. Once a summer resort for the British Raj elite","price":"250"
         },
     {
-        "name":"Darjeeling","img":"https://i.ibb.co/Kq9PNzf/toure1.jpg","description":"Darjeeling is a town in India's West Bengal state, in the Himalayan foothills. Once a summer resort for the British Raj elite","price":"250"
+        "name":"Morocco","img":"https://i.ibb.co/Kq9PNzf/toure1.jpg","description":"Morocco, a North African country bordering the Atlantic Ocean and Mediterranean Sea, is distinguished by its Berber, Arabian and European cultural influences. Marrakesh’s medina, a mazelike medieval quarter, offers entertainment in its Djemaa el-Fna square and souks (marketplaces) selling ceramics, jewelry and metal lanterns","price":"250"
         },
     {
-        "name":"Darjeeling","img":"https://i.ibb.co/XzfFLys/toure2.jpg","description":"Darjeeling is a town in India's West Bengal state, in the Himalayan foothills. Once a summer resort for the British Raj elite","price":"250"
+        "name":"Singapore","img":"https://i.ibb.co/XzfFLys/toure2.jpg","description":"Singapore is a sunny, tropical island in Southeast Asia, off the southern tip of the Malay Peninsula. Singapore is a city, a nation and a state","price":"250"
         },
     {
         "name":"Darjeeling","img":"https://i.ibb.co/bQ5S6DR/toure3.jpg","description":"Darjeeling is a town in India's West Bengal state, in the Himalayan foothills. Once a summer resort for the British Raj elite","price":"250"
         },
     {
-        "name":"Darjeeling","img":"https://i.ibb.co/QK9DJyJ/toure4.jpg","description":"Darjeeling is a town in India's West Bengal state, in the Himalayan foothills. Once a summer resort for the British Raj elite","price":"250"
+        "name":"Maldives","img":"https://i.ibb.co/QK9DJyJ/toure4.jpg","description":"Maldives, officially the Republic of Maldives, is an archipelagic country in the Indian subcontinent of Asia, situated in the Indian Ocean. It lies southwest of Sri Lanka and India, about 750 kilometres from the Asian continent's mainland.","price":"250"
         },
     {
-        "name":"Darjeeling","img":"https://i.ibb.co/vmjH7CW/toure5.jpg","description":"Darjeeling is a town in India's West Bengal state, in the Himalayan foothills. Once a summer resort for the British Raj elite","price":"250"
+        "name":"Machu Picchu, Peru.","img":"https://i.ibb.co/vmjH7CW/toure5.jpg","description":"Machu Picchu is an Incan citadel set high in the Andes Mountains in Peru, above the Urubamba River valley. Built in the 15th century and later abandoned, it’s renowned for its sophisticated dry-stone walls that fuse huge blocks without the use of mortar, intriguing buildings that play on astronomical alignments and panoramic views.","price":"250"
         },
     {
-        "name":"Darjeeling","img":"https://i.ibb.co/1qksdQx/toure6.jpg","description":"Darjeeling is a town in India's West Bengal state, in the Himalayan foothills. Once a summer resort for the British Raj elite","price":"250"
+        "name":"Central Park West NY","img":"https://i.ibb.co/1qksdQx/toure6.jpg","description":"The much larger Upper West Side-Central Park West Historic District includes the area from 96th Street to 62nd Street and Central Park West to Amsterdam Avenue","price":"250"
         },
     {
-        "name":"Darjeeling","img":"https://i.ibb.co/Csg0rn2/toure7.jpg","description":"Darjeeling is a town in India's West Bengal state, in the Himalayan foothills. Once a summer resort for the British Raj elite","price":"250"
+        "name":"Pyramids of Giza","img":"https://i.ibb.co/Csg0rn2/toure7.jpg","description":"Darjeeling is a town in India's West Bengal state, in the Himalayan foothills. Once a summer resort for the British Raj elite","price":"250"
         }
     ]

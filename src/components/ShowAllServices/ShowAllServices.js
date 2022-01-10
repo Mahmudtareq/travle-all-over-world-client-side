@@ -3,6 +3,7 @@ import { Card } from 'react-bootstrap';
 import Footer from '../Footer/Footer';
 import MenuBar from '../MenuBar/MenuBar';
 import './ShowAllServices.css';
+import { AnimatePresence, motion } from 'framer-motion/dist/framer-motion';
 
 const ShowAllServices = () => {
     const [services, setServices] = useState([])
@@ -35,29 +36,35 @@ const ShowAllServices = () => {
             <div>
                 <MenuBar></MenuBar>
             </div>
-            <h2 className="text-primary my-4">Show  All Services</h2>
+            <h2 className="text-primary my-4">Featured Tours</h2>
             <div className="show-details container my-5">
+    
             {
                 services.map(service =><div
-                key ={service._id}>
-                <Card className="mb-3" style={{ width: '18rem'}}>
-               <Card.Img variant="top" height="300" className=" " src={service.img} />
+                    key={service._id}>
+                 <motion.div
+      whileHover={{ scale: 1.05 }}
+      whileTap={{ scale: 0.9 }}
+      className="mb-2"
+    >  
+                    
+                <Card className="mb-3" style={{ width: '16rem'}}>
+               <Card.Img variant="top" height="190" className=" " src={service.img} />
               <Card.Body>
                 <Card.Title className="text-start">{service.name}</Card.Title>
                 <Card.Title className="text-start"> <span className="text-primary">Price: <span className="text-danger">$</span> {service.price} </span> <span className="text-info"> Per Person</span></Card.Title>
                 <Card.Text className="text-start">
-                {service.description}
+                {service.description.slice(0,100)}
                 </Card.Text>
                 <button onClick={()=>handleDelete(service._id)} className="btn btn-info px-4">Delate</button>
             </Card.Body>
             </Card>
                    
 
-                   
+                   </motion.div> 
                     {/* <button className="btn btn-danger px-4" onClick={()=>handleDelete(service._id)}>Delete</button> */}
                 </div>)
             }
-
             </div>
            
             <div>

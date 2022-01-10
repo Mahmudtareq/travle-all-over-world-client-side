@@ -29,8 +29,8 @@ const Myorder =()=>{
             <h2 className="text-primary mb-3">Tour Details </h2>
             <div className="row bg-light p-3">
                 <div className="col-lg-6 col-12">
-                <Card className="" style={{ width: '18rem'}}>
-            <Card.Img variant="top" height="300" className="" src={service.img} />
+        <Card className="" style={{ width: '18rem'}}>
+            <Card.Img variant="top" height="250" className="" src={service.img} />
             <Card.Body>
                 <Card.Title className="text-start">{service.name}</Card.Title>
                 <Card.Title className="text-start"> <span className="text-primary">Price: <span className="text-danger">$</span> {service.price} </span> <span className="text-info"> Per Person</span></Card.Title>
@@ -57,7 +57,7 @@ const Myorder =()=>{
                 <br />
                 <textarea  className="form-control" name="" id="" cols="5" rows="3" placeholder="Write Message"></textarea>
                 <br />
-                <input className="btn px-5 bg-primary" type="submit" value="Booking Your Order"/>
+                <input className="btn px-5 bg-primary" type="submit" value="Corfam Booking"/>
             </form>
                     
                 </div>
