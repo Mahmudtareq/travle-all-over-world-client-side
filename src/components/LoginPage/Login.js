@@ -46,7 +46,7 @@ const Login = () => {
 
             </div>
             <div className="container">
-                <from>
+               <from>
                     <h2 className="my-5 text-info">Please Login</h2>
                     <input className="form-control  w-50 mx-auto" type="email"  name="" id="" placeholder="Email" required />
                     <br />
@@ -55,8 +55,8 @@ const Login = () => {
                    
                     <button  className="btn btn-primary px-5" >Please Login</button>
                     <br />
-                </from>
-                <button onClick={handleGoogleLogin} className="my-3 mx-auto btn bg-primary px-4"><span className="text-danger me-3
+                </from> 
+                <button onClick={handleGoogleLogin} className="my-5 mx-auto btn bg-primary px-4"><span className="text-danger me-3
                 "><FontAwesomeIcon icon={faGoogle} /></span>   Google LogIn</button>
 
                 </div>

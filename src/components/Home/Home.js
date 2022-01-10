@@ -11,6 +11,7 @@ import about1 from '../../image/home/about1.png';
 import about2 from '../../image/home/about2.png';
 import useAuth from '../../hooks/useAuth';
 import { Spinner } from 'react-bootstrap';
+import { AnimatePresence, motion } from 'framer-motion/dist/framer-motion';
 
 
 const Home = () => {
@@ -26,10 +27,17 @@ const Home = () => {
             <div className=" my-5">
                 <p >Trevily SPECIALS</p>
                 <h1 className="mb-4 text-primary">Why Travel with Trevily?</h1>
-            <div className="container  my-5">
+                <div className="container  my-5">
+                    {/* add motion  */}
+    
                 <div className="row g-4">
-                    <div className="col-lg-4 col-12">
-                    <Card style={{ width: '18rem' }}>
+                            <div className="col-lg-4 col-12">
+                <motion.div
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.9 }}
+                className="mb-2"
+                >                               
+                <Card style={{ width: '18rem' }}>
   <                 Card.Img variant="top" src={feture1}/>
                    <Card.Body>
                     <Card.Text>
@@ -37,25 +45,39 @@ const Home = () => {
                      <br /> Guides
                     </Card.Text>
              </Card.Body>
-            </Card>
+                </Card>
+                </motion.div>
+                                
                     </div>
-                    <div className="col-lg-4 col-12">
+                        <div className="col-lg-4 col-12">
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.9 }}
+                className="mb-2"
+                > 
+                            
                     <Card style={{ width: '18rem' }}>
-  <                 Card.Img variant="top" src={feture2}/>
+                    <Card.Img variant="top" src={feture2}/>
                    <Card.Body>
-                 
                     <Card.Text>
                     100% Trusted Tour 
                     <br /> Agency
                     </Card.Text>
-             </Card.Body>
-            </Card>
+                   </Card.Body>
+                                </Card>
+                                </motion.div>
 
 
                     </div>
                     <div className="col-lg-4 col-12">
+
+                          <motion.div
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.9 }}
+                className="mb-2"
+                >   
                     <Card style={{ width: '18rem' }}>
-  <                 Card.Img variant="top" src={feture3}/>
+                 <Card.Img variant="top" src={feture3}/>
                    <Card.Body>
                     <Card.Text>
                     12+ Years of Travel 
@@ -64,11 +86,16 @@ const Home = () => {
                    
                     </Card.Text>
              </Card.Body>
-            </Card>
+                            </Card>
+                            </motion.div>
             </div>
+    </div>
+
+                    {/* end motion */}
+        </div>
             </div>
-        </div>
-        </div>
+            
+
         <div className="container my-5">
             <div className="row">
                 <div className="col-lg-6 col-12">

@@ -20,12 +20,12 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-md-3 text-white">
                             <div className="left-container text-start ">
-                                <h3 className="text-secondary">Incredible Vacations</h3>
+                                <h3 className="text-secondary">SERENITY TOURS</h3>
                                 <div className="icons-container d-flex text-center ">
                                 </div>
                                 <p className="mt-2 ">
                                     <p className="mt-2 text-muted">
-                                    Hi, I am Preshana Pillay. I am an Independent Travel Consultant. I have worked in the corporate and leisure sectors of the travel industry for more than  twenty years
+                                    Hi, I am Nawz Mahmud. I am an Independent Travel Consultant. I have worked in the corporate and leisure sectors of the travel industry for more than  twenty years
                                         
                                     </p>
                                     <p className="text-info">
@@ -38,16 +38,16 @@ const Footer = () => {
                             <h3 className=" text-secondary text-start">Contact Information</h3>
                             <div className=" footer-menu-container mt-4 text-start">
                                 <p className="">
-                                    <small><FontAwesomeIcon icon={faAddressBook} />  <span className="text-info">Mipur ,Dhaka</span> </small>
+                                    <small><FontAwesomeIcon icon={faAddressBook} />  <span className="text-info">Dhaka , Bangladesh</span> </small>
                                 </p>
                                 <p className="">
-                                    <small><FontAwesomeIcon icon={faEnvelope} />  <span className="text-info">travelTour@gmail.com</span> </small>
+                                    <small><FontAwesomeIcon icon={faEnvelope} />  <span className="text-info">mahmudtareq@gmail.com</span> </small>
                                 </p>
                                 <p className="">
                                     <small><FontAwesomeIcon icon={faFacebook} /> <span className="text-info">www.facebook.com</span> </small>
                                 </p>
                                 <p className="">
-                                    <small><FontAwesomeIcon icon={faPhone} /> <span className="text-info">+8801759539770</span> </small>
+                                    <small><FontAwesomeIcon icon={faPhone} /> <span className="text-info">+8801625072294</span> </small>
                                 </p>
 
                             </div>

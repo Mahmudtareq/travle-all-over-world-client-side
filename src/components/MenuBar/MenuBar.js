@@ -14,7 +14,7 @@ const MenuBar = () => {
         <Navbar className="p-3" bg="dark" variant="dark" sticky="top" collapseOnSelect expand="lg">
                 <Container>
                     <Navbar.Brand className="text-info fs-6" href="#home">
-                    Incredible Vacations
+                     SERENITY TOURS
                     </Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
@@ -31,19 +31,17 @@ const MenuBar = () => {
                     <Nav.Link as={Link} to="/about">About Us</Nav.Link>
                     {user.email ?
                             <button onClick={logOut} className="btn btn-info">Logout</button> :
-                            <Nav.Link as={Link} to="/login">Login</Nav.Link>
+                            <Nav.Link  as={Link} to="/login">Login</Nav.Link>
                     }
                     <Navbar.Text>
                             <span className="fs-5 text-info">
-                                Signed in as :
+                                User In :
                             </span>
                             <a href="#login">{user?.displayName}</a>
                         </Navbar.Text>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>
-
-       
         </>
             
        

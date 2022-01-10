@@ -20,8 +20,8 @@ const OurService = (props) => {
         <Card className="" style={{ width: '16rem' }}>
             <Card.Img variant="top" height="190" className="" src={img} />
             <Card.Body>
-                <Card.Title className="text-start">{name}</Card.Title>
-                <Card.Title className="text-start"> <span className="text-primary">Price: <span className="text-danger">$</span> {price} </span> <span className="text-info"> Per Person</span></Card.Title>
+                <Card.Title className="text-start text-primary">Place : {name}</Card.Title>
+                <Card.Title className="text-start"> <span className="text-secondary">Price: <span className="text-secondary">$</span> {price} </span> <span className="text-info"> Per Person</span></Card.Title>
                 <Link to={`/myOrder/${_id}`} style={{ textDecoration: 'none' }}>
                              <Button variant="primary" >View Details</Button>
                 </Link>
